@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Git branch</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -16,8 +16,71 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Branche principal (main)</h2>
+					<p>Pourquoi ?</p>
+				</section>
+				<section>
+					<h2>Github Pages</h2>
+					<p>Déployer la branche main</p>
+					<img src="https://raw.githubusercontent.com/frederic-educentre-courses/git_branch/refs/heads/master/ressources/deploy_github_pages.png">
+				</section>
+				<section>
+					<h2>En production</h2>
+					<p>Branche main déployé sur un serveur web</p>
+				</section>
+				<section>
+					<h2>Types de branches</h2>
+					<ol>
+						<li>Branche déployé sur un serveur web</br> (ex: main, prod, test, ...)</li>
+						<li>Branche de travail</li>
+					</ol>
+				</section>
+				<section>
+					<h2>Nouvelle fonctionnalité</h2>
+					<p>Créer une branche</p>
+					<p>git branch "..."</p>
+				</section>
+				<section>
+					<h2>Nomenclature de branches</h2>
+					<ul>
+						<li>feature/</li>
+						<li>bugfix/</li>
+						<li>hotfix/</li>
+						<li>chore/</li>
+						<li>experiment/</li>
+					</ul>
+					<p>Ex : feature/add-form</p>
+				</section>
+				<section>
+					<h2>Lister les branches</h2>
+					<strike>git branch</strike>
+					<p>git branch --list</p>
+				</section>
+				<section>
+					<h2>Naviguer entre les branches</h2>
+					<strike>git checkout ...</strike>
+					<p>git switch ...</p>
+				</section>
+				<section>
+					<h2>Démo switch</h2>
+					<img src="https://raw.githubusercontent.com/frederic-educentre-courses/git_branch/refs/heads/master/ressources/branch_switch.png">
+				</section>
+				<section>
+					<h2>Fusionner des branches</h2>
+					<p>git merge branche_1 branche_2</p>
+				</section>
+				<section>
+					<h2>Démo merge</h2>
+					<img src="https://raw.githubusercontent.com/frederic-educentre-courses/git_branch/refs/heads/master/ressources/branch_merge.png">
+				</section>
+				<section>
+					<h2>Supprimer une branche</h2>
+					<p>git branch --delete ...</p>
+				</section>
+				<section>
+					<h2>Livrable Educentre</h2>
+				</section>
 			</div>
 		</div>
 
